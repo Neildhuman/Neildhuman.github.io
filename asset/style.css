@@ -1,69 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Caveat", cursive;
+}
 body {
     background-color: blanchedalmond;
-}
-
-.nav {
-    font-family: 'Courier New', Courier, monospace;
-    display: flex;
-}
-
-nav {
-    margin-right: 40px;
-    margin-top: 10px;
-}
-
-#hello {
-    font-size: larger;
-}
-
-.logo {
-    display: flex;
-    justify-content: space-between; 
-    margin-top: 30px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-}
-
-.header {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-a {
-    text-decoration: none;
-    color: #000000;
-}
-
-.photo-1 {
-    display: flex;
-    justify-content: space-evenly;
-    max-width: 1200px;
-    max-height: 1000px;
     margin: auto;
 }
-
-.image-1 {
-    width: 200px;
-    height: 230px;
-    margin: 50px 20px 10px;
+header {
+    font-size: 2rem;
+    margin: 0;
 }
-
-img {
-    height: 230px;
-    width: 200px;
-    border: 5px solid black;
+#navi{
+    text-align: center;
 }
-
+#navi .nav-link {
+    padding: 5px;
+    align-content: center;
+    display: inline-block;
+    margin: .5rem 2rem 1rem 2rem;
+    text-decoration: none;
+    color: black;
+}
+#first {
+    margin: 0;
+    max-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+#first .description, .gojo {
+    border: .5rem solid black;
+    margin-top: 1rem;
+}
+.gojo {
+    margin-left: 1rem;
+}
+.gojo img {
+    height: 200px;
+    width: 200px;
+    margin: .5rem;
+    display: inline-block;
+}
 .description {
-    margin-left: 20px;
-    width: 500px;
-    height: 300px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 50px;
+    margin-left: 2rem;
+    margin-top: 0;
+    width: 30rem;
+}
+.description p {
+    font-size: 2.5rem;
+    display: inline-block;
 }
 
-/* .layout {
-    width: 77px;
-    height: 87px;
-    flex-shrink: 0;
-    fill: #FFC637;
-} */

@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.one {
+    background-color: red;
+    width: 200px;
+    height: 300px;
+}
+.two {
+    background-color: blue;
+    width: 200px;
+    height: 300px;
+}
+.three {
+    background-color: green;
+    width: 200px;
+    height: 300px;
+}
